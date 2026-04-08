@@ -68,6 +68,7 @@ async — runs as soon as downloaded, out of order
 
 
 
+
 <meta charset="UTF-8"> — sets character encoding so special characters (é, ñ, €) display correctly
 <meta name="viewport" ...> — makes the page responsive on mobile devices
 <title> — the text shown in the browser tab and search engine results
