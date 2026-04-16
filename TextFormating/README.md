@@ -347,3 +347,217 @@ text-transform: uppercase;
 ---
 
 💡 Master this → strong frontend + UI foundation 🚀
+
+
+# 📘 HTML & CSS Text Formatting (Complete Guide)
+
+---
+
+# 🧾 1. HTML Text Formatting Tags
+
+HTML text formatting tags are used to define the **structure and meaning (semantic)** of text.
+
+## 🔹 Common Tags
+
+```html
+<b>Bold Text</b>
+<strong>Important Text</strong>
+
+<i>Italic Text</i>
+<em>Emphasized Text</em>
+
+<u>Underlined Text</u>
+
+<mark>Highlighted Text</mark>
+
+<small>Smaller Text</small>
+
+<del>Deleted Text</del>
+
+<ins>Inserted Text</ins>
+
+H<sub>2</sub>O
+x<sup>2</sup>
+```
+
+---
+
+## 🔹 Explanation
+
+| Tag        | Meaning        | Notes                     |
+| ---------- | -------------- | ------------------------- |
+| `<b>`      | Bold           | Only visual               |
+| `<strong>` | Important text | Semantic + SEO            |
+| `<i>`      | Italic         | Only visual               |
+| `<em>`     | Emphasis       | Screen readers support    |
+| `<u>`      | Underline      | Avoid for links confusion |
+| `<mark>`   | Highlight      | Yellow background         |
+| `<small>`  | Smaller text   | Less important text       |
+| `<del>`    | Deleted text   | Strikethrough             |
+| `<ins>`    | Inserted text  | Underlined                |
+| `<sub>`    | Subscript      | Example: H₂O              |
+| `<sup>`    | Superscript    | Example: x²               |
+
+---
+
+## 🔥 Key Differences
+
+### ✅ `<b>` vs `<strong>`
+
+* `<b>` → Styling only
+* `<strong>` → Meaning + Accessibility + SEO
+
+### ✅ `<i>` vs `<em>`
+
+* `<i>` → Styling only
+* `<em>` → Emphasis (semantic)
+
+---
+
+# 🎨 2. CSS Text Formatting
+
+CSS is used to **style text visually**.
+
+---
+
+## 🔹 Basic Example
+
+```css
+p {
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+```
+
+---
+
+## 🔹 Important Properties
+
+### 1. Color & Size
+
+```css
+color: red;
+font-size: 18px;
+```
+
+### 2. Font Styling
+
+```css
+font-weight: bold;
+font-style: italic;
+```
+
+### 3. Alignment
+
+```css
+text-align: left | center | right | justify;
+```
+
+### 4. Decoration
+
+```css
+text-decoration: underline;
+text-decoration: line-through;
+text-decoration: none;
+```
+
+### 5. Transform
+
+```css
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+```
+
+### 6. Spacing
+
+```css
+letter-spacing: 2px;
+word-spacing: 5px;
+line-height: 1.6;
+```
+
+---
+
+# ⚖️ HTML vs CSS
+
+| Feature       | HTML       | CSS                 |
+| ------------- | ---------- | ------------------- |
+| Purpose       | Structure  | Styling             |
+| Example       | `<strong>` | `font-weight: bold` |
+| SEO           | Yes        | No                  |
+| Accessibility | Yes        | No                  |
+| Flexibility   | Low        | High                |
+
+---
+
+# 💡 Best Practice
+
+👉 Use HTML for **meaning**
+👉 Use CSS for **design**
+
+### Example
+
+```html
+<p class="important">Important Text</p>
+```
+
+```css
+.important {
+  font-weight: bold;
+  color: red;
+}
+```
+
+---
+
+# 🔥 Interview Questions
+
+## ✅ Beginner
+
+1. Difference between `<b>` and `<strong>`?
+2. What is `<em>` tag?
+3. How to underline text in HTML and CSS?
+
+---
+
+## ⚡ Intermediate
+
+4. Difference between `text-decoration` and `<u>`?
+5. What is `text-transform`?
+6. What is `line-height`?
+
+---
+
+## 🚀 Advanced
+
+7. Why avoid HTML styling tags?
+8. How semantic HTML improves SEO?
+9. Difference between `<i>` and `<em>` in accessibility?
+10. How CSS inheritance works for text?
+
+---
+
+# 🧠 Pro Tip
+
+> Always prefer semantic HTML + CSS styling for scalable and maintainable applications.
+
+---
+
+# 📌 Summary
+
+* HTML → Structure & meaning
+* CSS → Styling & layout
+* Use semantic tags for accessibility
+* Avoid inline styling
+
+---
+
+🚀 Ready for interviews + real-world projects!
+
